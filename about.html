@@ -1,99 +1,56 @@
+<!--
+  Name: Tamara Slone
+  Date: October 6, 2024
+  This is the index.html page for my...
+-->
+
 <!DOCTYPE html>
-<!--
-  Directions:
-  - Try viewing the page before you make any changes
-  - Look for all the places it say *** TODO: _____ ***
-  - Remove the *** TODO: _____ *** and follow the instructions. i.e. if it says
-    *** TODO: Give the page a title *** do just that, write a title for the page in place of the
-    todo item. Your final submission should not include any TODO comments
--->
-
-<!--
-  ***
-  TODO: fill in your header
-  INSERT YOUR NAME HERE
-  INSERT THE CURRENT DATE HERE
-
-  WRITE A 2-3 SENTENCE FILE DESCRIPTION HERE
-  ***
--->
 <html lang="en">
   <head>
-    <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title>CP1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Londrina+Sketch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>About Me - Portfolio</title>
   </head>
+
   <body>
-    <section>
-      <h1>*** TODO: Describe this page succinctly! ***</h1>
-      <p>
-        *** TODO: Insert a brief description of yourself in 1-2 sentences (e.g. background,
-        something you did during the break, what you're looking forward to in AD 320, etc.).
-      </p>
-    </section>
 
-    <section>
-      <h2>Classes I'm currently taking</h2>
-      <!--
-        *** TODO: Finish the following unordered list with classes you are currently taking (in order
-        of most-to-least favorite). We've shown you two list items, but you may need to add more.
-      -->
-      <ul>
-        <li>*** TODO: add your first favorite class***</li>
-        <li>*** TODO: add your second favorite class***</li>
-      </ul>
-    </section>
+    <header>
+        <h1 id = "title">Tamara Slone</h1>
+        <h2 id="headerCap">Multi-Media Artist</h2>
+        
+        <nav>
+          <ul>
+            <li><a href = "home.html">Home</a></li>
+            <li><a href = "artport.html">Portfolio</a></li>
+            <li><a href = "about.html">About Me</a></li>
+            <li><a href = "contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section>
-      <h2>Five of My Favorite Things</h2>
-      <!--
-        ***
-        TODO: Finish the following list of your favorite things (you can customize the
-        categories if you'd like!).
 
-        Wrap your answer for at least one favorite thing inside of
-        an <a> tag, linking to a related page (e.g. a wikipedia page of your favorite animal).
-        If you have multiple favorites in a category, try a nested list inside of an li!
-        ***
-      -->
-      <ol>
-        <li><strong>Favorite animal:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite food:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite TV show:</strong> *** TODO: fill in your answer***</li>
-        <li><strong>Favorite hobby:</strong> *** TODO: fill in your answer ***</li>
-        <li><strong>Favorite ???:</strong> *** TODO: fill in your answer ***</li>
-      </ol>
-
-      <!--
-        ***
-        TODO: Find two images that represent when you're happy and when you're sad (consider
-        Google Image Search) but remember to cite your sources
-        ***
-      -->
-
-      <h3>A picture that represents when I'm happy</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
-
-      <h3>A picture that represents when I'm sad</h3>
-      <img src="*** TODO: add image file***" alt="*** TODO: insert descriptive text for screenreaders***">
-      <p>*** TODO: add citation of where you got this file ***</p>
-
-      <h3>One of my favorite quotes</h3>
-      <!--
-        Note: We'll learn about semantic tags more this week, but an article is a good semantic
-        choice here to group the information about a single quote and the author/source. If
-        you want to have multiple quotes, try duplicating this
-        "card UI" structure
-      -->
-      <article>
-        <blockquote>
-          <p>
-            *** TODO: Insert a favorite quote here. Add another paragraph tag if needed! ***
-          </p>
-          <footer>*** TODO: Insert the source (e.g. author) for the quote here.***</footer>
-        </blockquote>
-      </article>
-    </section>
+    <main>
+      <div class = "aboutimage">
+      <img id ="selfie" src="images/ewwitsme.jpg" alt="A photo of a girl with a beanie on, a hoodie, and nerdy glasses"> 
+      </div>
+      <h3>Who are You?</h3>
+      <p>Hello! My name is Tamara Slone. I was born and raised in the Appalachian mountains of eastern Kentucky. My passion for animation and game design led me to Seattle, Washington, where I pursued my dream of working in the tech industry.</p>
+      <p>Although I started my career path in art and animation, I discovered a new passion for programming. My goal is to blend the beauty and creativity of art with the logic and structure of programming. While my main focus is web development, I also enjoy exploring game creation on the side.</p>      
+      
+      <h3>Skills</h3>
+      <p>I'm a multimedia artist with a background in Video Game Design. I enjoy working with tools like Photoshop, Illustrator, and creating web vector images. I also have experience in 3D modeling with Maya and Blender, and I’ve done some design work in Unity. My focus is on blending creativity with technical skills to create engaging visuals.</p>
+      
+      <h3>Hobbies</h3>
+      <p>In my free time, I love playing video games and jamming on the bass guitar. I'm also an avid reader and always eager to learn something new, whether it's a skill or a random fact. Gardening is another hobby of mine—I find it a great way to unwind and reconnect with nature.</p>
+      <div class = "mascotimage">
+      <img id = "mascot" src = "images/brbmascot.png" alt = "Cartoon girl with a yellow bunny mask. She is sitting down and dizzy">
+      </div>
+      
+      <p>If you're interested in my graphics work or programming work you can contact me <a href="contact.html">here</a>.</p>
+    </main>
   </body>
 </html>
